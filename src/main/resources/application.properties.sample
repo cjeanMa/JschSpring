@@ -1,0 +1,17 @@
+spring.application.name=webservice-tsa
+app.env =production
+server.port=9091
+spring.mvc.favicon.enabled=false
+
+#Connection to server pki
+connection.user=########
+connection.password=#########
+connection.host=##########
+connection.port=######
+
+authorization.code=##################
+
+#Base to handle logs
+logging.level.org.springframework.web=INFO
+logging.level.com.mkyong=INFO
+logging.pattern.console=%d{yyyy-MM-dd} %d{HH:mm:ss} %-5level ${PID:- } --- [%thread] %logger{36} %msg%n
